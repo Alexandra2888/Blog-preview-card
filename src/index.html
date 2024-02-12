@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+  </head>
+  <body class="bg-[#F4D04E] flex justify-center items-center h-screen">
+    <main class="w-[327px] h-[501px] xl:w-[384px] xl:h-[522px]">
+      <div
+        role="card"
+        class="bg-white rounded-2xl p-6 xs:w-80 xs:mx-auto sm:w-96 border border-black shadow-[10px_10px_0px_0px_hsl(0,0%,7%)]"
+      >
+        <img
+          src="./../assets/images/illustration-article.svg"
+          alt="img"
+          class="rounded-md bg-cover h-[200px] mb-7"
+        />
+        <a
+          ref="#"
+          class="bg-[#F4D04E] w-fit px-3 py-1 text-black rounded-md font-extrabold text-sm"
+          >Learning</a
+        >
+
+        <p class="py-2.5 text-sm font-bold">Published 21 Dec 2023</p>
+
+        <h3
+          class="font-bold text-2xl py-1 tracking-tighter hover:text-[#F4D04E]"
+        >
+          HTML & CSS foundations
+        </h3>
+
+        <p
+          class="pt-5 pb-10 font-thin text-[#808080] leading-6 text-sm tracking-tight"
+        >
+          These languages are the backbone of every website, defining structure,
+          content, and presentation.
+        </p>
+
+        <div class="flex items-center pb-5">
+          <img
+            src="./../assets/images/image-avatar.webp"
+            alt="avatar"
+            class="w-[32px] shadow-sm"
+          />
+          <p class="text-center px-3 font-extrabold text-sm">Greg Hooper</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
